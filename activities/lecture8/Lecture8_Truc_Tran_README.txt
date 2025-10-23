@@ -2,19 +2,21 @@
 
 **[Optional]** If what is being submitted is an individual Lab or Assignment. Otherwise, include a brief one paragraph description about the project.
 
-* *Date Created*: DD MMM YYYY
-* *Last Modification Date*: DD MMM YYYY
-* *Lab URL*: <http://example.com/>
+* *Date Created*: 23 10 2025
+* *Last Modification Date*: 23 10 2025
+* *Activity URL*: <https://dal.brightspace.com/d2l/le/content/392458/Home>
 
 ## Description
 
-This is an activity for L7: Objects & JavaScript. In this sample code from the lecture, a new function for deleting the creature sanctuary list is added.
+This is an activity for L8 Calculator Activity. 
+The script is extended to allow 4 calculations (addition, subtraction, multiplication, division).
+Add 2 more functions in the JS file.
 
 
 ## Git Lab and Timberlea
 
 *Git Lab*: <https://git.cs.dal.ca/ttran/csci3172> 
-*Timberlea*: <https://web.cs.dal.ca/~ttran/csci3172/activities/lecture7/>
+*Timberlea*: <https://web.cs.dal.ca/~ttran/csci3172/activities/lecture8/>
 
 
 ## Authors
@@ -36,7 +38,7 @@ No framework is used.
 If in completing your lab / assignment / project you used any interpretation of someone else's code, then provide a list of where the code was implemented, how it was implemented, why it was implemented, and how it was modified. See the sections below for more details.
 
 
-This is an extension of the sample code in Lecture 7 for activity purposes.
+This is an extension of the sample code in Lecture 8 for activity purposes.
 
 
 
