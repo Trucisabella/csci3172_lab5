@@ -49,22 +49,58 @@
 // First, we'll creatr a function to store the input values into the variables we declared
 // We'll enclose that code block in a function, getNumbers( )
 
-    // Store the values from the form into the variables we declared above
- 
- 
-
-
-
-	// Call the getNumbers() function to import the values the user enteres into the form into 
-	// this function
-	
-	// We perform our addition on the two values
-	
-
-	// Display the result of the calculation
-	
+// Store the values from the form into the variables we declared above
 
 
 
 
 
+// Call the getNumbers() function to import the values the user enteres into the form into 
+// this function
+
+// We perform our addition on the two values
+
+
+// Display the result of the calculation
+
+
+function addition(event) {
+	event.preventDefault();
+	const a = parseFloat(document.getElementById("number1").value);
+	const b = parseFloat(document.getElementById("number2").value);
+	const sum = a + b;
+	console.log("Sum: " + sum);
+	document.getElementById("result").textContent = "Sum: " + sum;
+}
+
+function subtraction(event) {
+	event.preventDefault();
+	const a = parseFloat(document.getElementById("number1").value);
+	const b = parseFloat(document.getElementById("number2").value);
+	const difference = a - b;
+	console.log("Difference: " + difference);
+	document.getElementById("result").textContent = "Difference: " + difference;
+}
+
+function multiplication(event) {
+	event.preventDefault();
+	const a = parseFloat(document.getElementById("number1").value);
+	const b = parseFloat(document.getElementById("number2").value);
+	const product = a * b;
+	console.log("Product: " + product);
+	document.getElementById("result").textContent = "Product: " + product;
+}
+
+function division(event) {
+	event.preventDefault();
+	const a = parseFloat(document.getElementById("number1").value);
+	const b = parseFloat(document.getElementById("number2").value);
+	if (b === 0) {
+		console.log("Error: Division by zero");
+		document.getElementById("result").textContent = "Cannot divide by zero";
+	} else {
+		const quotient = a / b;
+		console.log("Quotient: " + quotient);
+		document.getElementById("result").textContent = "Quotient: " + quotient;
+	}
+}
