@@ -49,4 +49,4 @@ No AI tools are used.
 * Inspiration
 * etc
 
-Data using to create inventory objects is from Musique Depot (musiquedepot.ca)[musiquedepot.ca] and Long & McQuade (long-mcquade.com)[long-mcquade.com]
+Data using to create inventory objects is from Musique Depot <musiquedepot.ca> and Long & McQuade <long-mcquade.com>
