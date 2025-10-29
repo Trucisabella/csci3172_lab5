@@ -5,26 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <h1>Registration</h1>
     <form id="registrationForm">
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" class="email" name="email" required>
+        <span id="emailError" class="error-text"></span>
         <br><br>
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <input type="text" id="username" class="username" name="username" required>
+        <span id="usernameError" class="error-text"></span>
         <br><br>
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" id="password" class="password" name="password" required>
+        <span id="passwordError" class="error-text"></span>
         <br><br>
         <label for="confirmation">Confirm Password:</label>
-        <input type="password" id="confirmation" name="confirmation" required>
+        <input type="password" id="confirmation" class="confirmation" name="confirmation" required>
+        <span id="confirmationError" class="error-text"></span>
         <br><br>
         <button type="submit">Register</button>
     </form>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
