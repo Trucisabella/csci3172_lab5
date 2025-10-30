@@ -14,7 +14,10 @@ This lab activity is to use arrow functions, destructuring assignment syntax, Ma
 ## Git Lab and Timberlea
 
 *Git Lab*: <https://git.cs.dal.ca/ttran/csci3172> 
-*Timberlea*: <https://web.cs.dal.ca/~ttran/csci3172/labs/lab3/>
+
+*Timberlea* (this will automatically display index.html): <https://web.cs.dal.ca/~ttran/csci3172/labs/lab3/>
+
+*Timberlea* for login.html: <https://web.cs.dal.ca/~ttran/csci3172/labs/lab3/login.html>
 
 
 ## Authors
